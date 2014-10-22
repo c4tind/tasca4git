@@ -35,9 +35,9 @@ public class ComptarLletres {
 				comptadorNum++;
 			}
 			numRep = 0;	
-		}
+		}//Mira com pinto les coses aqui!
 		System.out.println(lletres.toString());
-		System.out.println(); //Has vist que xulo és el salt de linia?
+		System.out.println(); 
 		System.out.println("Hi apareixen " + comptadorNum + " números.");
 	}
 }
