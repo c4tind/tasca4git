@@ -32,12 +32,12 @@ public class ComptarLletres {
 				lletres.put(frase.charAt(i),1);
 			}
 			if((int)frase.charAt(i) > 47 && (int)frase.charAt(i) < 58) {
-				comptadorNum++; //Mira com compto números!
+				comptadorNum++;
 			}
 			numRep = 0;	
 		}
 		System.out.println(lletres.toString());
-		System.out.println();
+		System.out.println(); //Mira quin salt de linia més guai!
 		System.out.println("Hi apareixen " + comptadorNum + " números.");
 	}
 }
