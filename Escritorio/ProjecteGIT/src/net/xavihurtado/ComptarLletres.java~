@@ -37,7 +37,11 @@ public class ComptarLletres {
 			numRep = 0;	
 		}
 		System.out.println(lletres.toString());
+<<<<<<< HEAD
 		System.out.println(); //Mira quin salt de linia més guai!
+=======
+		System.out.println(); //Has vist que xulo és el salt de linia?
+>>>>>>> ccb22943045e6889b33bf215318fd27cfec00e49
 		System.out.println("Hi apareixen " + comptadorNum + " números.");
 	}
 }
